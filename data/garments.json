@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "note": "Planning candidates only. These are NOT live verified Printify SKUs, prices or available colors. Populate from current catalog/provider.",
+  "last_verified_at": null,
+  "platform": "Printify",
+  "fulfillment": "print-on-demand",
+  "garments": [
+    {
+      "role": "core_tee",
+      "brand": "Comfort Colors",
+      "model": "1717",
+      "launch": true,
+      "exact_provider": null,
+      "verified_colors": [],
+      "neck_label_eligible": null,
+      "neck_label_incremental_cost": null,
+      "pricing_verified": false
+    },
+    {
+      "role": "crewneck",
+      "brand": "Comfort Colors",
+      "model": "1566",
+      "launch": "1-2 hero designs if viable",
+      "exact_provider": null,
+      "verified_colors": [],
+      "neck_label_eligible": null,
+      "neck_label_incremental_cost": null,
+      "pricing_verified": false
+    },
+    {
+      "role": "hoodie",
+      "brand": "Comfort Colors",
+      "model": "1567",
+      "launch": "0-1 design",
+      "exact_provider": null,
+      "verified_colors": [],
+      "neck_label_eligible": null,
+      "neck_label_incremental_cost": null,
+      "pricing_verified": false
+    },
+    {
+      "role": "long_sleeve",
+      "brand": "Comfort Colors",
+      "model": "6014",
+      "launch": false,
+      "exact_provider": null,
+      "verified_colors": [],
+      "neck_label_eligible": null,
+      "neck_label_incremental_cost": null,
+      "pricing_verified": false
+    }
+  ]
+}
