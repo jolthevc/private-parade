@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "currency": "USD",
+  "status": "illustrative retail hypotheses only",
+  "retail_targets": {
+    "tee": 45,
+    "crewneck": 75,
+    "hoodie": 90
+  },
+  "bundles": {
+    "status": "test after verified costs",
+    "suggested_tee_quantities": [
+      2,
+      3,
+      5
+    ]
+  },
+  "fees": {
+    "payment_processing_percent": null,
+    "payment_processing_fixed": null
+  },
+  "costs": {
+    "blank": null,
+    "front_print": null,
+    "back_print": null,
+    "additional_prints": null,
+    "inside_neck_label": null,
+    "shipping": null,
+    "returns_allowance": null
+  },
+  "acquisition_cost": null,
+  "formula": "retail - discounts - base_and_prints - neck_label - absorbed_shipping - processing - returns_allowance = contribution_before_acquisition; subtract attributable acquisition for contribution_after_acquisition",
+  "note": "Do not substitute catalog starting prices for complete printed and shipped SKU costs."
+}
