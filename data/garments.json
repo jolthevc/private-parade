@@ -153,7 +153,18 @@
       "neck_label_eligible": null,
       "neck_label_incremental_cost": null,
       "pricing_verified": false,
-      "provider_selection_status": "selected; per-variant availability unverified"
+      "provider_selection_status": "selected; per-variant availability unverified",
+      "observed_color_names": [
+        "White",
+        "Grey",
+        "Pepper",
+        "Seafoam",
+        "Flo Blue",
+        "Denim",
+        "True Navy",
+        "Crimson"
+      ],
+      "color_evidence": "User screenshot of Printify SwiftPOD Comfort Colors 1567 variant selector, 2026-10-27; 8 color names visible, size availability and variant IDs unverified"
     },
     {
       "role": "long_sleeve",
