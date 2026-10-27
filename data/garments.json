@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "note": "Planning candidates only. These are NOT live verified Printify SKUs, prices or available colors. Populate from current catalog/provider.",
+  "note": "SwiftPOD selected as single launch provider. Tee color names observed in user screenshots, not yet confirmed per-size SKU availability. Crewneck/hoodie palettes and prices remain unverified.",
   "last_verified_at": null,
   "platform": "Printify",
   "fulfillment": "print-on-demand",
@@ -10,33 +10,128 @@
       "brand": "Comfort Colors",
       "model": "1717",
       "launch": true,
-      "exact_provider": null,
+      "exact_provider": "SwiftPOD",
       "verified_colors": [],
       "neck_label_eligible": null,
       "neck_label_incremental_cost": null,
-      "pricing_verified": false
+      "pricing_verified": false,
+      "provider_selection_status": "selected; per-variant availability unverified",
+      "observed_color_names": [
+        "White",
+        "Grey",
+        "Graphite",
+        "Pepper",
+        "Sage",
+        "Granite",
+        "Black",
+        "Red",
+        "Chili",
+        "Brick",
+        "Espresso",
+        "Sandstone",
+        "Ivory",
+        "Khaki",
+        "Bright Salmon",
+        "Terracotta",
+        "Burnt Orange",
+        "Melon",
+        "Citrus",
+        "Banana",
+        "Butter",
+        "Hemp",
+        "Bay",
+        "Light Green",
+        "Island Reef",
+        "Moss",
+        "Island Green",
+        "Seafoam",
+        "Lagoon",
+        "Lagoon Blue",
+        "Ice Blue",
+        "Chambray",
+        "Blue Spruce",
+        "Chalky Mint",
+        "Sapphire",
+        "Topaz Blue",
+        "Royal Caribe",
+        "Mystic Blue",
+        "Midnight",
+        "China Blue",
+        "Blue Jean",
+        "Washed Denim",
+        "Flo Blue",
+        "Periwinkle",
+        "Denim",
+        "True Navy",
+        "Navy",
+        "Orchid",
+        "Berry",
+        "Grape",
+        "Violet",
+        "Wine",
+        "Blossom",
+        "Neon Pink",
+        "Crunchberry",
+        "Crimson",
+        "Watermelon",
+        "Neon Red Orange",
+        "Cumin",
+        "Yam"
+      ],
+      "color_evidence": "User screenshots of Printify Select variants, 2026-10-27; names visible, size-level availability and variant IDs not verified",
+      "design_color_candidates": [
+        {
+          "design": "Majorette",
+          "preferred": "Ivory",
+          "status": "proposed"
+        },
+        {
+          "design": "Grandstand",
+          "preferred": "Blue Jean",
+          "alternative": "Denim",
+          "status": "proposed"
+        },
+        {
+          "design": "Swan Float",
+          "preferred": "Sage",
+          "status": "proposed"
+        },
+        {
+          "design": "Pennant",
+          "preferred": "Terracotta",
+          "alternative": "Brick",
+          "status": "proposed"
+        },
+        {
+          "design": "Palm",
+          "preferred": "Pepper",
+          "status": "proposed"
+        }
+      ]
     },
     {
       "role": "crewneck",
       "brand": "Comfort Colors",
       "model": "1566",
       "launch": "1-2 hero designs if viable",
-      "exact_provider": null,
+      "exact_provider": "SwiftPOD",
       "verified_colors": [],
       "neck_label_eligible": null,
       "neck_label_incremental_cost": null,
-      "pricing_verified": false
+      "pricing_verified": false,
+      "provider_selection_status": "selected; per-variant availability unverified"
     },
     {
       "role": "hoodie",
       "brand": "Comfort Colors",
       "model": "1567",
       "launch": "0-1 design",
-      "exact_provider": null,
+      "exact_provider": "SwiftPOD",
       "verified_colors": [],
       "neck_label_eligible": null,
       "neck_label_incremental_cost": null,
-      "pricing_verified": false
+      "pricing_verified": false,
+      "provider_selection_status": "selected; per-variant availability unverified"
     },
     {
       "role": "long_sleeve",
@@ -49,5 +144,10 @@
       "neck_label_incremental_cost": null,
       "pricing_verified": false
     }
-  ]
+  ],
+  "single_provider_policy": {
+    "selected": "SwiftPOD",
+    "scope": "All launch garments",
+    "rule": "Do not silently substitute another print provider; verify provider-specific availability per garment, color and size."
+  }
 }
